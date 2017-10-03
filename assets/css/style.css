@@ -1,5 +1,6 @@
 body {
 	 background: url("../images/green.png");
+	 border-width: 100px;
 }
 
 /* images sizing*/
@@ -11,10 +12,10 @@ body {
 		}
 /*Jumbotron header*/
 .jumbotron {
-	width: 45%;
+	width: 40%;
     margin-left: 19px;
     text-align: center;
-    background-color: #ff8c00;
+    background-color: #CF8310;
     color: white;
     margin-top: 20px;
 }
@@ -22,12 +23,34 @@ body {
 h1 {
 	font-size: 20px;
 }
+
 /* Main instructions game*/
 .instruct {
-	background-color: #D2B48C;
+	background-color: #FCD59A;
     width: 50%;
     margin-left: 19px;
     color: green;
     font-size: 18px;
-
 }
+
+/* Bottom total score box*/
+#total {
+	background-color: #2CB07B;
+	margin-left: 19px;
+	color: white;
+	width: 25%;
+	padding: 30px;
+    margin-top: 10px;
+}
+
+#scoreM{
+	background-color: #2CB07B;
+    margin-left: 19px;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+

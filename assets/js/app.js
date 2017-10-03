@@ -63,11 +63,13 @@ $(document).ready(function(){
 			console.log("you lost, restart");
 			losses = losses + 1;
 			// display you losses 
-			$("#loses").html(losses);
+			 $("#loses").html(losses);
 			// update loses on screen
 			reStart();
 			//Restarts
 		}
+
+
 
 	});
 });
