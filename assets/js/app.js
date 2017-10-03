@@ -52,9 +52,10 @@ $(document).ready(function(){
 		if(totalScore === match)
 		{
 			wins = wins + 1;
-			$("wins").html(wins);
+			$("#wins").html(wins);
 			// update wins on screen
 			reStart();
+			//Restarts
 		}
 
 		if(totalScore > match)
@@ -62,8 +63,10 @@ $(document).ready(function(){
 			console.log("you lost, restart");
 			losses = losses + 1;
 			// display you losses 
+			$("#loses").html(losses);
 			// update loses on screen
 			reStart();
+			//Restarts
 		}
 
 	});
