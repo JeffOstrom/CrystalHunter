@@ -1,6 +1,33 @@
+body {
+	 background: url("../images/green.png");
+}
+
+/* images sizing*/
 .crystal{
 			background: lightblue;
-			width: 100px;
-			height: 100px;
+			width: 200px;
+			height: 200px;
 			margin: 5px;
 		}
+/*Jumbotron header*/
+.jumbotron {
+	width: 45%;
+    margin-left: 19px;
+    text-align: center;
+    background-color: #ff8c00;
+    color: white;
+    margin-top: 20px;
+}
+/* Font size*/
+h1 {
+	font-size: 20px;
+}
+/* Main instructions game*/
+.instruct {
+	background-color: #D2B48C;
+    width: 50%;
+    margin-left: 19px;
+    color: green;
+    font-size: 18px;
+
+}
