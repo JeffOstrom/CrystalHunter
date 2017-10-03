@@ -2,50 +2,54 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Crystal Collector</title>
-        
-        <!--JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!-- Bootstrap link-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--CSS Link-->
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
- <!--1. Player shown a random number
-    2. player clicks on a crystal. its points added to total score.
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Crystal Collector</title>
+    <!-- Bootstrap link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--CSS Link-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    
+
+ <!--1. Player shown a random number. Player shown a randomly generated number they need to guess.
+    2. player clicks on a crystal. its points added to total score/players counter
     3. check if total score matches random number (i.e compare values)
     if matches => win... game restarts
     if less => nothing happens - can click on another crystal
     if more => lose... game restarts
+    - Need to show the number of games the player wins and loses.
     numbers on the crystals randomly generated 1-12
     randomly generated number trying to guess is 19-120-->
 
 
 <body>
-    <!--Game Title-->
-    <div class="jumbotron">
-        <h1>Crystal Collector</h1>
-    </div>
 	<!--Game instructions from HW section-->
-	<div class="instructions"> 
-        <p>You will be given a random number at the start of the game
-    	There are four crystals below. By Clicking on a crystal you will add a specific amount of points to your total score.</p>
+	   <div class="container">
+        
+        
+        <h1>Score to Match: <span id="random"></span></h1>
+        <h1>Wins: <span id="wins">0</span></h1>
+        <h1>Loses: <span id="loses">0</span></h1>
+        
 
-    	<p>you win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p> 
+        <div class="row">
+            <div class="crystal col-xs-3" id="crystalA" data-points="11">A</div>
+            <div class="crystal col-xs-3" id="crystalB" data-points="10">B</div>
+            <div class="crystal col-xs-3" id="crystalC" data-points="5">C</div>
+            <div class="crystal col-xs-3" id="crystalD" data-points="3">D</div>
+        </div>
 
-    	<p>Each time when the game starts, the game will change values of each crystal.</p>
-	</div>
-    
-    <!--This section is going to display wins or losses-->
-    <div class="Score"></div>
-    <!--Showing my images of the 4 cyrstal options to click-->
-    <div class="Crystal-image">
-        <img class="crystal-image" src="assets/images/crystal.jpeg" alt="crystals">
+        <h1>Your Score: <span id="yourScore">0</span></h1>
+
     </div>
-    <!--Final Total Score-->
-    <div class="Totalscore"></div>
 
 
 <script type="text/javascript" src="assets/js/app.js"></script>
