@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	console.log("game.js loaded");
+	
 
 	var wins = 0;
 	var losses = 0;
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		$("#crystalB").attr("data-points", randomNumber(1,12));
 		$("#crystalC").attr("data-points", randomNumber(1,12));
 		$("#crystalD").attr("data-points", randomNumber(1,12));		
-
+		
 	}
 
 
@@ -51,19 +51,20 @@ $(document).ready(function(){
 		//compare to total score to match
 		if(totalScore === match)
 		{
+			console.log("you win!")
 			wins = wins + 1;
 			$("#wins").html(wins);
 			// update wins on screen
 			reStart();
 			//Restarts
 		}
-
+		
 		if(totalScore > match)
 		{
-			console.log("you lost, restart");
 			losses = losses + 1;
+
 			// display you losses 
-			 $("#loses").html(losses);
+			  $("#loses").html(losses);
 			// update loses on screen
 			reStart();
 			//Restarts

@@ -1,5 +1,5 @@
 body {
-	 background: url("../images/green.png");
+	 background: url("../images/concrete.png");
 	 border-width: 100px;
 }
 
@@ -12,7 +12,7 @@ body {
 		}
 /*Jumbotron header*/
 .jumbotron {
-	width: 40%;
+	width: 45%;
     margin-left: 19px;
     text-align: center;
     background-color: #CF8310;
