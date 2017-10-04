@@ -4,12 +4,17 @@ body {
 }
 
 /* images sizing*/
-.crystal{
-			background: lightblue;
-			width: 200px;
-			height: 200px;
-			margin: 5px;
+.crystal{ 
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+
 		}
+.crystal img {
+    height: 200px;
+    width: 200px;
+}
+
 /*Jumbotron header*/
 .jumbotron {
 	width: 45%;
