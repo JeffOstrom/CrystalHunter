@@ -27,7 +27,7 @@ $(document).ready(function(){
 		
 		match = randomNumber(19, 120);
 		$("#random").html(match);
-
+		console.log(random);
 		totalScore = 0;
 		$("#totalScore").html(totalScore);	
 

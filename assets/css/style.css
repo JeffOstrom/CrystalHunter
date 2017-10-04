@@ -40,8 +40,10 @@ h1 {
 	margin-left: 19px;
 	color: white;
 	width: 25%;
-	padding: 30px;
+    padding: 40px;
     margin-top: 10px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 #scoreM{
@@ -52,6 +54,7 @@ h1 {
     padding: 20px;
     margin-top: 10px;
     margin-bottom: 5px;
+    
 }
 
 
