@@ -31,6 +31,7 @@ h1 {
     margin-left: 19px;
     color: green;
     font-size: 18px;
+    padding: 10px;
 }
 
 /* Bottom total score box*/
@@ -49,7 +50,7 @@ h1 {
     color: white;
     width: 25%;
     padding: 20px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 

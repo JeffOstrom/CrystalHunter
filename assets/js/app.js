@@ -36,7 +36,7 @@ $(document).ready(function(){
 		$("#crystalB").attr("data-points", randomNumber(1,12));
 		$("#crystalC").attr("data-points", randomNumber(1,12));
 		$("#crystalD").attr("data-points", randomNumber(1,12));		
-		
+
 	}
 
 
@@ -51,9 +51,12 @@ $(document).ready(function(){
 		//compare to total score to match
 		if(totalScore === match)
 		{
-			console.log("you win!")
+			// I need to fix this to reset once win!
 			wins = wins + 1;
-			$("#wins").html(wins);
+			//I need to figure out how to enter alert Wins/Loss
+			console.log("You win!");
+        
+	        $("#wins").html(wins + "<p>You win!</p>");
 			// update wins on screen
 			reStart();
 			//Restarts
@@ -61,10 +64,11 @@ $(document).ready(function(){
 		
 		if(totalScore > match)
 		{
+			//I need to reset this when lose.
 			losses = losses + 1;
 
 			// display you losses 
-			  $("#loses").html(losses);
+			  $("#loses").html(losses + "<p>You Lost!</p>");
 			// update loses on screen
 			reStart();
 			//Restarts
