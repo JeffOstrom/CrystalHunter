@@ -31,7 +31,9 @@ Built With
 
 - CSS3
 
-- Bootstrap
+- Bootstrap v3.3.7
+
+- Google Fonts
 
 Resources
 -------------------------------------------------------------------------------------

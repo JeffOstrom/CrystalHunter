@@ -8,6 +8,7 @@
 	<title>Crystal Collector</title>
     <!-- Bootstrap link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
 
     <!--CSS Link-->
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -24,37 +25,51 @@
     <div class="jumbotron">
       <h1>Crystal Collector</h1>
     </div>
+    <!--Game instructions-->
+    <div class="row">
+        <div class="col-xs-8" id="instruct">
+            <p>You will be given a random number at the start of the game.</p>
 
-    <div class="instruct">
-        <p>You will be given a random number at the start of the game.</p>
-        <br>
-        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-        <br>
-        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
-        <br>
-        <p> The value of each crystal is hidden from you until you click on it.</p>
-        <br>
-        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+            <br>
+
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+            <br>
+
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+
+            <br>
+
+            <p> The value of each crystal is hidden from you until you click on it.</p>
+
+            <br>
+
+            <p>Each time when the game starts, the game will change the value of each crystal.</p>
+        </div>
     </div>
     	
-    <!--body-->
-    <div class="container">
-        <div id= scoreM>
-        <h1>Score to Match: <span id="random"></span></h1>
-        <h1>Wins: <span id="wins">0</span></h1>
-        <h1>Lose: <span id="loses">0</span></h1>
-        </div>
-
-        <div class="row">
-            <div class="crystal col-xs-3" id="crystal1" data-points="11">1</div>
-            <div class="crystal col-xs-3" id="crystal2" data-points="10">2</div>
-            <div class="crystal col-xs-3" id="crystal3" data-points="5">3</div>
-            <div class="crystal col-xs-3" id="crystal4" data-points="3">4</div>
+    <!--Score board section-->
+    <div class="row">
+        <div class="col-xs-6" id= scoreM>
+            <h2>Score to Match: <span id="random"></span></h2>
+            <h2>Wins: <span id="wins">0</span></h2>
+            <h2>Lose: <span id="loses">0</span></h2>
         </div>
     </div>
-        <div id="total">
-            <h1>Your total Score is: <span id="yourScore">0</span></h1>
+    <!--Crystal images in a row-->
+    <div class="row">
+        <div class="crystal col-xs-3" id="crystal1" data-points="11">1</div>
+        <div class="crystal col-xs-3" id="crystal2" data-points="10">2</div>
+        <div class="crystal col-xs-3" id="crystal3" data-points="5">3</div>
+        <div class="crystal col-xs-3" id="crystal4" data-points="3">4</div>
+    </div>
+    
+    <!--Total score per game-->
+    <div class="row">
+        <div class="col-xs-6" id="total">
+            <h2>Your total Score is: <span id="yourScore">0</span></h2>
         </div>
+    </div>
 
     
 <script type="text/javascript" src="assets/js/app.js"></script>

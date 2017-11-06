@@ -1,43 +1,44 @@
 body {
 	 background: url("../Images/Cave.jpg");
 	 border-width: 100px;
-}
+     margin: 10px;
+    }
 
 /* images sizing*/
 .crystal{ 
         width: 200px;
         height: 200px;
-        margin: 5px;
+        margin: 10px;
 
-		}
+	}
 .crystal img {
     height: 200px;
     width: 200px;
-}
+    }
 
 /*Jumbotron header #CF8310*/
 .jumbotron {
-	width: 45%;
-    margin-left: 19px;
-    text-align: center;
     background-color: #02FAFE;
     color: #030F88;
-    margin-top: 20px;
-}
+    margin-top: 0px;
+    text-align: center;
+    }
 /* Font size*/
 h1 {
+    font-family: 'Shojumaru', cursive;
 	font-size: 20px;
-}
+    }
 
 /* Main instructions game #FCD59A*/
-.instruct {
+#instruct {
 	background-color: #02FAFE;
     width: 50%;
     margin-left: 19px;
     color: #030F88;
     font-size: 18px;
-    padding: 10px;
-}
+    padding: 20px;
+    margin-bottom: 15px;
+    }
 
 /* Bottom total score box #2CB07B*/
 #total {
@@ -46,10 +47,10 @@ h1 {
 	color: #030F88;
 	width: 25%;
     padding: 40px;
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
-    margin-bottom: 40px;
-}
+    margin-bottom: 0px;
+    }
 
 #scoreM{
 	background-color: #02FAFE;
@@ -60,6 +61,16 @@ h1 {
     margin-top: 10px;
     margin-bottom: 5px;
     
+    }
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    }
+
+h2 {
+    font-family: 'Shojumaru', cursive;    
 }
+
 
 
