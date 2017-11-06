@@ -18,7 +18,7 @@ body {
 
 /*Jumbotron header #CF8310*/
 .jumbotron {
-    background-color: #02FAFE;
+    background-color: #99FDFF;
     color: #030F88;
     margin-top: 0px;
     text-align: center;
@@ -31,7 +31,7 @@ h1 {
 
 /* Main instructions game #FCD59A*/
 #instruct {
-	background-color: #02FAFE;
+	background-color: #99FDFF;
     width: 50%;
     margin-left: 19px;
     color: #030F88;
@@ -42,7 +42,7 @@ h1 {
 
 /* Bottom total score box #2CB07B*/
 #total {
-	background-color: #02FAFE;
+	background-color: #99FDFF;
 	margin-left: 19px;
 	color: #030F88;
 	width: 25%;
@@ -53,7 +53,7 @@ h1 {
     }
 
 #scoreM{
-	background-color: #02FAFE;
+	background-color: #99FDFF;
     margin-left: 19px;
     color: #030F88;
     width: 25%;
@@ -71,6 +71,4 @@ p {
 h2 {
     font-family: 'Shojumaru', cursive;    
 }
-
-
 
