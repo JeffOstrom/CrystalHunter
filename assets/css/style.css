@@ -1,5 +1,5 @@
 body {
-	 background: url("../Images/green.png");
+	 background: url("../Images/Cave.jpg");
 	 border-width: 100px;
 }
 
@@ -15,13 +15,13 @@ body {
     width: 200px;
 }
 
-/*Jumbotron header*/
+/*Jumbotron header #CF8310*/
 .jumbotron {
 	width: 45%;
     margin-left: 19px;
     text-align: center;
-    background-color: #CF8310;
-    color: white;
+    background-color: #02FAFE;
+    color: #030F88;
     margin-top: 20px;
 }
 /* Font size*/
@@ -29,21 +29,21 @@ h1 {
 	font-size: 20px;
 }
 
-/* Main instructions game*/
+/* Main instructions game #FCD59A*/
 .instruct {
-	background-color: #FCD59A;
+	background-color: #02FAFE;
     width: 50%;
     margin-left: 19px;
-    color: green;
+    color: #030F88;
     font-size: 18px;
     padding: 10px;
 }
 
-/* Bottom total score box*/
+/* Bottom total score box #2CB07B*/
 #total {
-	background-color: #2CB07B;
+	background-color: #02FAFE;
 	margin-left: 19px;
-	color: white;
+	color: #030F88;
 	width: 25%;
     padding: 40px;
     margin-top: 10px;
@@ -52,9 +52,9 @@ h1 {
 }
 
 #scoreM{
-	background-color: #2CB07B;
+	background-color: #02FAFE;
     margin-left: 19px;
-    color: white;
+    color: #030F88;
     width: 25%;
     padding: 20px;
     margin-top: 10px;
