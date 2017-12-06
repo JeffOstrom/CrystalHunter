@@ -1,7 +1,7 @@
 Synopsis
 -------------------------------------------------------------------------------------
 
-- Crystal Collector is a fun interactie game for web browsers
+- Crystal Collector is a fun interactive game for web browsers
 
 - There will be four crystals displayed as buttons on the page
 
