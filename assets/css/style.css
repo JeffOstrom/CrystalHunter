@@ -1,20 +1,14 @@
-/*body {
-	 background: url("../Images/joshua-earle.jpg");
-	 border-width: 100%;
-    }
-*/
+
 body, html {
     height: 100%;
 }
-
-
 /* images sizing*/
 .crystal{ 
         width: 200px;
         height: 200px;
         margin: 10px;
+    }
 
-	}
 .crystal img {
     height: 200px;
     width: 200px;
@@ -32,6 +26,7 @@ body, html {
     color: #030F88;
     text-align: center;
     }
+    
 /* Font size*/
 h1 {
     font-family: 'Shojumaru', cursive;

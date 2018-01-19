@@ -20,7 +20,7 @@ Synopsis
 
 - The game will display number of wins and loses 
 
-- Check it out!  https://jeffostrom.github.io/CrystalsCollector/
+- Check it out!  https://jeffostrom.github.io/CrystalHunter/
 
 Built With
 -------------------------------------------------------------------------------------
