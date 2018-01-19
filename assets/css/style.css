@@ -1,8 +1,12 @@
-body {
-	 background: url("../Images/Cave.jpg");
-	 border-width: 100px;
-     margin: 10px;
+/*body {
+	 background: url("../Images/joshua-earle.jpg");
+	 border-width: 100%;
     }
+*/
+body, html {
+    height: 100%;
+}
+
 
 /* images sizing*/
 .crystal{ 
@@ -18,15 +22,21 @@ body {
 
 /*Jumbotron header #CF8310*/
 .jumbotron {
+    margin-bottom: 0px;
+    background: url("../Images/joshua-earle.jpg");
+     position: relative;   
+    width: 100%;
+    background-size: 100%;
+    overflow: hidden;
     background-color: #99FDFF;
     color: #030F88;
-    margin-top: 0px;
     text-align: center;
     }
 /* Font size*/
 h1 {
     font-family: 'Shojumaru', cursive;
 	font-size: 20px;
+    padding-bottom: 25px;
     }
 
 /* Main instructions game #FCD59A*/

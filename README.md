@@ -35,6 +35,8 @@ Built With
 
 - Google Fonts
 
+- Unsplash
+
 Resources
 -------------------------------------------------------------------------------------
 
@@ -57,4 +59,4 @@ License
 
 Acknowledgments
 -------------------------------------------------------------------------------------
-- None
+- Photo by Joshua Earle on Unsplash
